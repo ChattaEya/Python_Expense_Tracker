@@ -1,7 +1,9 @@
 expenses = []
 def add_expense():
-    # Travail de l'etudiant A
-    pass                     
+    description = input("Description : ")
+    amount = float(input("Montant : "))
+    expenses.append({"description": description,"amount": amount})
+    print("Depense ajoutee !")                     
 def show_expenses():
     # Travail de l'etudiant B
     pass                     
